@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Ordering System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>🍽 Online Food Ordering System</h1>
+        <p>Order your favorite food now!</p>
+    </header>
+
+    <section class="menu-section">
+        <h2>Menu</h2>
+
+        <div class="menu-container">
+
+            <div class="card">
+                <img src="images/pizza.jpg" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>Price: ₹250</p>
+                <button onclick="addToOrder('Pizza',250)">Order</button>
+            </div>
+
+            <div class="card">
+                <img src="images/burger.jpg" alt="Burger">
+                <h3>Burger</h3>
+                <p>Price: ₹120</p>
+                <button onclick="addToOrder('Burger',120)">Order</button>
+            </div>
+
+            <div class="card">
+                <img src="images/biryani.jpg" alt="Biryani">
+                <h3>Biryani</h3>
+                <p>Price: ₹180</p>
+                <button onclick="addToOrder('Biryani',180)">Order</button>
+            </div>
+
+            <div class="card">
+                <img src="images/momo.jpg" alt="Momos">
+                <h3>Momos</h3>
+                <p>Price: ₹90</p>
+                <button onclick="addToOrder('Momos',90)">Order</button>
+            </div>
+
+            <div class="card">
+                <img src="images/roll.jpg" alt="Roll">
+                <h3>Chicken Roll</h3>
+                <p>Price: ₹150</p>
+                <button onclick="addToOrder('Chicken Roll',150)">Order</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="order-section">
+        <h2>Your Order</h2>
+        <ul id="orderList"></ul>
+        <h3>Total: ₹<span id="totalPrice">0</span></h3>
+    </section>
+
+    <section class="chart-section">
+        <h2>📊 Order Trend Scatter Plot</h2>
+        <canvas id="orderChart"></canvas>
+    </section>
+
+    <footer>
+        <p>© 2025 Online Food Ordering System | Created By You</p>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
