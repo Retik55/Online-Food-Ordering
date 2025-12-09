@@ -49,11 +49,10 @@ Online-Food-Ordering/
 
 ## 📸 Screenshots
 
-> *(Replace below example placeholder paths with actual image files from your results)*
+| Home Page | Menu | Order + Chart |
+|-----------|------|---------------|
+| ![Homepage](images/demo1.png) | ![Menu](images/demo2.png) | ![Order Chart](images/demo3.png) |
 
-| UI | Chart | Menu |
-|----|-------|------|
-| ![Menu UI](images/demo1.png) | ![Scatter Plot](images/demo2.png) | ![Ordering Page](images/demo3.png) |
 
 ---
 
