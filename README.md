@@ -39,7 +39,10 @@ Online-Food-Ordering/
        ├── burger.jpg
        ├── biryani.jpg
        ├── roll.jpg
-       └── momo.jpg
+       ├── momo.jp
+       ├── demo1.png
+       ├── demo2.png
+       └── demo3.png
 ```
 
 ---
